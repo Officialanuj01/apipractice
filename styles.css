@@ -1,0 +1,59 @@
+body{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#searchbox{
+    opacity: 0.35;
+    position: absolute;
+    top: 60px;
+    width: 400px;
+    left: 530px;
+    height: 40px;
+    border-radius: 20px 0px 20px 0px;
+    
+}
+
+#searchbox{
+    box-shadow: 2px 2px rgb(229, 149, 2);
+}
+#locationName{
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    font-size: 60px;
+}
+
+#dateandtime{
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 600px;
+    font-size: 20px;
+}
+#temp{
+    color: white;
+    position: absolute;
+    top: 220px;
+    left: 600px;
+    font-size: 100px;
+    text-shadow: 5px 5px 10px black;
+}
+#weatherstate{
+    color: white;
+    position: absolute;
+    top: 440px;
+    left: 670px;
+    font-size: 30px;
+}
+#max-min-temp{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 500px;
+    left: 650px;
+    font-size: 40px;
+}
